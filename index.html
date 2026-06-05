@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRIS R | Del Barrio Para El Mundo</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/Icono.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <h1 class="loader-text">KRIS R</h1>
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-logo">KRIS R</div>
+        <div class="nav-links">
+            <a href="#historia">HISTORIA</a>
+            <a href="#conciertos">TOUR</a>
+            <a href="#discografia">MÚSICA</a>
+        </div>
+        <div class="nav-socials">
+            <a href="https://www.instagram.com/kris_r/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://open.spotify.com/artist/4Xp5YwZ0y6XvYV0YfX2XyZ" target="_blank"><i class="fab fa-spotify"></i></a>
+        </div>
+    </nav>
+
+    <main id="main-container">
+        
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="video-container">
+                <!-- Video Placeholder Cinematográfico (Urbano) -->
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-night-city-street-lights-and-traffic-2847-large.mp4" type="video/mp4">
+                    <source src="assets/videos/portada_kris.mp4.mp4" type="video/mp4">
+                    <source src="assets/videos/portada_kris.mp4.mp4" type="video/mp4">
+                </video>
+                <div class="overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">KRIS R</h1>
+                <p class="hero-subtitle">LA KBRA DEL TRAP COLOMBIANO</p>
+                <a href="#conciertos" class="btn-primary">PRÓXIMOS SHOWS</a>
+            </div>
+            <div class="scroll-indicator">SCROLL</div>
+        </section>
+
+        <!-- FRASE 1 -->
+        <section class="quote-section">
+            <h2 class="glitch" data-text="YO SOY LA KBRA, EL QUE APAGÓ TODO UN CARTEL.">EL QUE APAGÓ TODO UN CARTEL.</h2>
+        </section>
+
+        <!-- SPOTIFY SEARCH & PLAYER -->
+        <section class="search-section">
+            <div class="search-container">
+                <span class="tag">SPOTIFY CONNECT</span>
+                <h2 class="search-title">ENCUENTRA TU RITMO</h2>
+                <div class="search-box">
+                    <input type="text" id="spotify-search-input" placeholder="Busca una canción de Kris R...">
+                    <button id="spotify-search-btn"><i class="fab fa-spotify"></i> BUSCAR</button>
+                </div>
+                <div class="player-wrapper">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3i6lAgVHplDXb6zrjIeBeK?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- HISTORIA -->
+        <section id="historia" class="history-section">
+            <div class="section-container">
+                <div class="history-grid">
+                    <div class="history-image reveal">
+                        <img src="assets/images/kris_1.jpg" alt="kris_1">
+                    </div>
+                    <div class="history-text">
+                        <span class="tag">ESTILO DE VIDA</span>
+                        <h2 class="reveal-text">EL ORIGEN</h2>
+                        <p class="reveal-text">Kristian Rangel Betancur es el nombre de pila de Kris R., el cantante que nació en Nueva York, Estados Unidos, el 12 de febrero del 2001. Fue criado en Medellín, Colombia, y ahí se desarrolló su deseo y talento para la música. </p>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h3>2018</h3>
+                                <p>Primeros lanzamientos en solitario y ft con Rauw Alejandro.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3>2021</h3>
+                                <p>Viral en las calles de Medellín por su canción con GeezyDee titulada Parche Tranqui.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3>2024</h3>
+                                <p>Tour Nacional U.V.E.S: UNA VALIJA EN SENTIMIENTO.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONCIERTOS -->
+        <section id="conciertos" class="shows-section">
+            <h2 class="section-title">TOUR 2026</h2>
+            <div class="shows-list">
+                <div class="show-card">
+                    <div class="show-date">OCT 15</div>
+                    <div class="show-info">
+                        <h3>BOGOTÁ, COL</h3>
+                        <p>Movistar Arena</p>
+                    </div>
+                    <a href="https://web.tuboleta.com/images/Eventos/Kris-R-El-Trap-de-Kolombia/home.html" class="btn-ticket" target="_blank">TICKETS</a>
+                </div>
+                <div class="show-card">
+                    <div class="show-date">NOV 02</div>
+                    <div class="show-info">
+
+                        <h3>SANTIAGO, CHL</h3>
+                        <p>Teatro Coliseo</p>
+                    </div>
+
+                     <a href="https://www.puntoticket.com/kris-r-2026" class="btn-ticket" target="_blank">TICKETS</a>
+                </div>
+                <div class="show-card">
+                    <div class="show-date">DIC 12</div>
+                    <div class="show-info">
+
+                        <h3>BARCELONA, ESP</h3>
+                        <p>Feria de Barcelona</p>
+                    </div>
+
+                     <a href="https://reggaetonbeachfestival.com/" class="btn-ticket" target="_blank">TICKETS</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DISCOGRAFÍA -->
+        <section id="discografia" class="disco-section">
+            <h2 class="section-title">DISCOGRAFÍA</h2>
+            <div class="album-grid">
+
+                <a href="https://open.spotify.com/intl-es/album/4Cq3dLOhKEoRDMekEJF4aY?si=r9C2EZuoSi26JsQoGiOp_g" target="_blank" class="album-card">
+                    <img src="assets/images/uves.jpg" alt="Album 1">
+                    <div class="album-overlay">
+                        <h3>U.V.E.S</h3>
+                        <p>2025 • KRIS R</p>
+                        <p>10 CANCIONES</p>
+                        <i class="fab fa-spotify"></i>
+                    </div>
+
+                </a>
+                <a href="https://open.spotify.com/intl-es/album/5aBhlr7SPeB7kaWnSmT1Qd?si=ShvmTXy6Qiq27oF-J6PR6g" target="_blank" class="album-card">
+                    <img src="assets/images/trapdekolombia.jpg" alt="Album 2">
+                    <div class="album-overlay">
+                        <h3>TRAP DE KOLOMBIA</h3>
+                        <p>2026 • KRIS R</p>
+                        <p>14 CANCIONES</p>
+                        <i class="fab fa-spotify"></i>
+                    </div>
+
+                </a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">KRIS R</div>
+                <div class="newsletter">
+                    <h3>ÚNETE AL MOVIMIENTO</h3>
+                    <div class="input-group">
+                        <input type="email" placeholder="TU EMAIL">
+                        <button>OK</button>
+                    </div>
+                </div>
+                <div class="social-footer">
+                    <a href="https://www.instagram.com/krisrofficial?igsh=eXFnbzNkejBqMTNp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@krisrofficial?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@krisroficial?si=3YsYIy_jm4pjDhmP" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://open.spotify.com/intl-es/artist/3i6lAgVHplDXb6zrjIeBeK?si=Wgl2qNYHQAKEz9-yHS5_1A" target="_blank"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KRIS R MUSIC. DISEÑADO PARA EL BARRIO.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Scripts: GSAP, ScrollTrigger, Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
